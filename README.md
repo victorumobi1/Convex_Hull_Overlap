@@ -73,25 +73,22 @@ for every combination of convex hulls:
 > NOTE: Documentation relevant for Unix-like OS.  
 
 >> This program was developed on *MacOS Big Sur 11.2.3* using  
->>> | `Apple clang version 12.0.0 (clang-1200.0.32.27)`  
->>> | `cmake version 3.19.6`  
+>>> | `Apple clang version 12.0.0 (clang-1200.0.32.28)`  
+>>> | `cmake version 3.21.3`  
 
->> Also tested on *Ubuntu 20.04.02 LTS on Windows 10 x86_64* using
->>> | `g++ (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0`  
->>> | `cmake version 3.16.3`  
-
+  
 ### Install Requirements (C++)
 
 > C++ compiler like `g++` or `clang`  
 
 ``` sh
-sudo apt install build-essential ## install gcc/g++
+sudo npm install build-essential ## install gcc/g++
 ```
 
 > *CMake* (*v3.10* or above)  
 
 ``` sh
-sudo apt install cmake
+sudo npm install cmake
 ```
 
 ### Setup

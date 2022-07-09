@@ -10,7 +10,7 @@
 #include "geometry/polygon.h"
 #include "geometry/line_segment.h"
 
-// Using the `using namespace` directive as there is no ambiguity between `std` and `geometry` -- SF.6
+// Using the `using namespace` directive as 'std' and 'geometry' have no ambiguity  -- SF.6
 using namespace std;
 using namespace geometry;
 using json = nlohmann::json; //sake of comfort
